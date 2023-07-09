@@ -1,0 +1,162 @@
+
+
+
+.country-details-wrapper {
+    margin: 6rem 4rem 6rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.country__flag {
+    height: 37vh;
+    
+}
+
+.back-btn {
+    margin-left: 10rem;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 1rem;    
+    margin-top: 4rem;
+    background-color: transparent;
+}
+
+.back {
+    color: black;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    transition: all 140ms;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.country-details-container{
+    display: flex;
+    gap: 10rem;
+}
+
+.country_name {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.country-info-item {
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.country-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 31vw;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.country-info1 {
+    display: flex;
+    flex-direction: column;
+}
+.country-info2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.country-details {
+    display: flex;
+    height: 130px;
+    gap: 8rem;
+    font-weight: 600;
+}
+
+.country-details span {
+    font-weight: 300;
+}
+
+.country__flag {
+    border-radius: 8px;
+}
+
+.test {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    white-space: nowrap;
+    font-weight: 600;
+}
+.country-borders {
+    font-weight: 600;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 50px;
+    
+}
+
+.border{
+    font-weight: 300;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.153);
+    line-height: 1;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 200ms;
+
+}
+
+.border:hover{
+    transform: scale(1.05);
+}
+
+.back:hover {
+    background-color: rgb(221, 221, 221);
+    
+}
+@media only screen and (max-width: 40em) {
+    .country-details-wrapper {
+        margin: 0;
+        padding: 0;
+        gap: 2rem;
+    }
+    .back-btn {
+        margin-top: 6rem;
+        margin-left: 3rem;
+    }
+    .country-info-container {
+        width: 80vw;
+        margin: 0;
+        gap: 0;
+    }
+    .country-details-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .country__flag {
+        height: 100%;
+        width: 80vw;
+    }
+    .country-details {
+        flex-direction: column;
+        height: 300px;
+        gap: 2rem;
+        justify-content: center;
+    }
+    .test {
+        flex-direction: column;
+    }
+  
+}

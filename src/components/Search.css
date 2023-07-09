@@ -1,0 +1,50 @@
+input {
+    border: none;
+    width: 30rem;
+    padding: 1.4rem 1rem;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.153);
+    height: 0.9rem;
+}
+
+
+.search-results-dropdown {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 30rem;
+    max-height: 25rem;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    border-radius: 4px;
+    z-index: 100000;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.153);
+    
+}
+
+.search-result-item {
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.search-result-item:hover {
+    background-color: #1d1d1d3c;
+}
+
+.country-flag-small {
+    height: 16px;
+    width: 24px;
+}
+
+@media screen and (max-width: 531px) {
+    input {
+        width: 85vw;
+        
+    }
+  }

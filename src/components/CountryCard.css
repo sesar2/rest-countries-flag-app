@@ -1,0 +1,40 @@
+.country-flag {
+    height: 200px;
+    width: 350px;
+    border-radius: 4px 4px 0 0;
+    object-fit: cover;
+}
+
+.country-card {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 200ms;
+    max-width: 350px;
+}
+
+.country-info.dark{
+    background-color: #2B3844;
+    color: white;
+}
+
+.country-info {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 110px;
+    border-radius: 0 0 4px 4px ;
+    padding: 30px;
+    color: black;
+   
+}
+
+.country-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.country-card:hover {
+    transform: scale(1.03);
+}
